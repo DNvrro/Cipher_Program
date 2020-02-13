@@ -37,7 +37,7 @@ class Affine(Cipher):
                        "\n>")
         if choice == '1':
             alpha = Affine().get_alpha()
-            beta = Affine().get_beta()
+            beta = Affine().get_beta(alpha)
             txt = Affine().get_txt()
             Affine().encrypt(alpha, beta, txt)
         elif choice == '2':
@@ -59,32 +59,46 @@ class Affine(Cipher):
         has met said criteria
         """
 
-        usable_alphas = [3, 5, 7, 9, 11, 15, 17, 19, 21, 23, 25]
+        usable_alphas = ['1', '3', '5', '7', '9', '11', '15',
+                         '17', '19', '21', '23', '25']
 
-        alpha = int(input("Please choose an appropriate alpha value: \n> "))
+        alpha = input("Please choose an appropriate alpha value: \n> ")
 
         while alpha not in usable_alphas:
             print('That is not a valid alpha. Please choose one '
                   'from the list below: '
                   '\n3, 5, 7, 9, 11, 15, 17, 19, 21, 23')
 
-            alpha = int(input("\n> "))
+            alpha = input("\n> ")
+        alpha = int(alpha)
         return alpha
 
-    def get_beta(self):
+    def get_beta(self, alpha):
         """
         This checks that the user has inputted a beta value w/in the range of
         0 - 25 and returns beta once it has met said criteria
         """
-        usable_betas = [i for i in range(26)]
+        usable_betas = ['0','2','3','4','5','6','7','8','9','10','11','12',
+                        '13','14','15','16','17','18','19','20','21','22',
+                        '23','24','25']
 
-        beta = int(input("Please choose a beta value from 0 - 25: \n> "))
+        beta = input("Please choose a beta value from 0 - 25: \n> ")
 
-        while beta not in usable_betas:
-            print("That is not a valid beta value. Please choose a value from"
-                  " 0-25: ")
+        if alpha == 1 and beta == 0:
+            while beta not in usable_betas[1:]:
+                print("I'm sorry, because you have chosen your alpha to be 1,"
+                      " you cannot have a beta value of 0.")
+                beta = input(("\nPlease choose a beta from 1 - 25: \n> "))
 
-            beta = int(input("> "))
+        else:
+
+            while beta not in usable_betas:
+                print("That is not a valid beta value. Please choose a "
+                      "value from"
+                      " 0 - 25: ")
+
+                beta = input("\n> ")
+        beta = int(beta)
         return beta
 
     def get_txt(self):
@@ -93,12 +107,13 @@ class Affine(Cipher):
         If the user has entered a message containing any numbers or special
         characters, the user is asked to reenter the message
         """
-        invalid_tx = True
-
+        invalid_txt = True
         do_repeat = False
-        while invalid_tx:
+
+        while invalid_txt:
             txt = input("What would you like your message to "
                         "be?\n> ").upper().strip()
+            txt = txt.replace(" ","")
 
             for x in txt:
                 if x not in self.letters:
@@ -110,7 +125,7 @@ class Affine(Cipher):
             if do_repeat:
                 do_repeat = False
             else:
-                invalid_tx = False
+                invalid_txt = False
         return txt
 
     def encrypt(self, alpha, beta, txt):
