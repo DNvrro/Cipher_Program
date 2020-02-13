@@ -10,7 +10,8 @@ class RailFence(Cipher):
 
         print("The Rail Fence cipher (also know as the Zigzag Cipher) is "
               "a form of transposition cipher. This requires the user to pick"
-              " a key 'x' that must satisfy the condition  1 < x <= 3.")
+              " a key 'x' that satisfies the condition  1 < x <= 3.\n")
+        RailFence().cipher_choice()
         pass
 
     def cipher_choice(self):

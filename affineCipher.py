@@ -95,21 +95,23 @@ class Affine(Cipher):
         """
         invalid_tx = True
 
-        txt = input("What would you like your message to "
-                    "be?\n> ").upper().strip()
-        new_txt = ''
+        do_repeat = False
         while invalid_tx:
+            txt = input("What would you like your message to "
+                        "be?\n> ").upper().strip()
 
             for x in txt:
                 if x not in self.letters:
                     print("Please make sure your message contains no integers"
                           " or special characters...")
-                    txt = input("What would you like your message to "
-                                "be?\n> ").upper().strip()
-                else:
-                    new_txt += x
-            invalid_tx = False
-        return new_txt
+                    do_repeat = True
+                    break
+
+            if do_repeat:
+                do_repeat = False
+            else:
+                invalid_tx = False
+        return txt
 
     def encrypt(self, alpha, beta, txt):
         """
