@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 import os
 
-
 from affineCipher import Affine
 from railFenceCipher import RailFence
 
@@ -22,21 +21,21 @@ def greeting():
     print("\nWelcome to the Bishop-Navarro Cipher Program!")
 
 
-
-
 def main_menu():
-
-    # menu_options = {1: Affine(), 2: RailFence(), 3: quit_program()}
+    """
+    The main menu of the program that essentially handles the calling
+    of the ciphers
+    """
     while True:
 
         print("\nSelect a cipher to learn more about it:")
 
         cipher_choice = input(
-                                  "1. Affine Cipher"
-                                  "\n2. Rail Fence Cipher"
-                                  "\n3. Quit Program"
-                                  "\nEnter a number..."
-                                  "\n>")
+            "1. Affine Cipher"
+            "\n2. Rail Fence Cipher"
+            "\n3. Quit Program"
+            "\nEnter a number..."
+            "\n>")
         clear_screen()
         if cipher_choice == '1':
             choice = Affine()
