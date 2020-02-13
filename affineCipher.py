@@ -38,8 +38,7 @@ class Affine(Cipher):
         if choice == '1':
             alpha = Affine().get_alpha()
             beta = Affine().get_beta()
-            while Affine().get_txt() != False:
-                txt = Affine().get_txt()
+            txt = Affine().get_txt()
             Affine().encrypt(alpha, beta, txt)
         elif choice == '2':
             alpha = Affine().get_alpha()
@@ -50,7 +49,7 @@ class Affine(Cipher):
             return
         else:
             print("That is not a valid option. Please choose an option "
-                  "from the menu below:")
+                  "from the menu below:\n")
             Affine().cipher_choice()
 
     def get_alpha(self):
@@ -94,21 +93,23 @@ class Affine(Cipher):
         If the user has entered a message containing any numbers or special
         characters, the user is asked to reenter the message
         """
-        valid_txt = False
+        invalid_tx = True
 
-
-        while not valid_txt:
-            txt = input("What would you like your message to "
-                        "be?\n> ").upper().strip()
+        txt = input("What would you like your message to "
+                    "be?\n> ").upper().strip()
+        new_txt = ''
+        while invalid_tx:
 
             for x in txt:
                 if x not in self.letters:
                     print("Please make sure your message contains no integers"
                           " or special characters...")
-                    Affine().get_txt()
-
-            valid_txt = True
-        return txt
+                    txt = input("What would you like your message to "
+                                "be?\n> ").upper().strip()
+                else:
+                    new_txt += x
+            invalid_tx = False
+        return new_txt
 
     def encrypt(self, alpha, beta, txt):
         """
