@@ -34,6 +34,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Python" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/Cipher-Program" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
@@ -106,13 +107,85 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="scratch_6" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="cipher_program" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$APPLICATION_CONFIG_DIR$/scratches" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$APPLICATION_CONFIG_DIR$/scratches/scratch_6.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="scratch_7" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="cipher_program" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$APPLICATION_CONFIG_DIR$/scratches" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$APPLICATION_CONFIG_DIR$/scratches/scratch_7.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="scratch_8" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="cipher_program" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$APPLICATION_CONFIG_DIR$/scratches" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$APPLICATION_CONFIG_DIR$/scratches/scratch_8.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.cipherProgram" />
       <item itemvalue="Python.affineCipher" />
+      <item itemvalue="Python.scratch_6" />
+      <item itemvalue="Python.scratch_7" />
+      <item itemvalue="Python.scratch_8" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.cipherProgram" />
+        <item itemvalue="Python.scratch_8" />
+        <item itemvalue="Python.scratch_7" />
+        <item itemvalue="Python.scratch_6" />
         <item itemvalue="Python.affineCipher" />
       </list>
     </recent_temporary>
@@ -135,7 +208,8 @@
       <workItem from="1581374537103" duration="162000" />
       <workItem from="1581374740279" duration="13737000" />
       <workItem from="1581482770161" duration="5049000" />
-      <workItem from="1581528852531" duration="20455000" />
+      <workItem from="1581528852531" duration="25812000" />
+      <workItem from="1581908160306" duration="9664000" />
     </task>
     <servers />
   </component>
@@ -162,54 +236,54 @@
       <screen x="1440" y="-1080" width="1080" height="1920" />
     </state>
     <state x="1768" y="-359" key="FileChooserDialogImpl/0.0.1440.900/-480.-1080.1920.1080/1440.-1080.1080.1920@1440.-1080.1080.1920" timestamp="1581399652111" />
-    <state width="1878" height="231" key="GridCell.Tab.0.bottom" timestamp="1581632172041">
-      <screen x="703" y="-1080" width="1920" height="1080" />
+    <state width="1398" height="220" key="GridCell.Tab.0.bottom" timestamp="1581954510477">
+      <screen x="703" y="-1057" width="1920" height="1057" />
     </state>
     <state width="1038" height="209" key="GridCell.Tab.0.bottom/0.0.1440.900/-480.-1080.1920.1080/1440.-1080.1080.1920@1440.-1080.1080.1920" timestamp="1581571311388" />
-    <state width="1878" height="231" key="GridCell.Tab.0.bottom/0.0.1440.900/703.-1080.1920.1080/-1217.-1080.1920.1080@703.-1080.1920.1080" timestamp="1581632172041" />
-    <state width="1398" height="209" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1581551666705" />
+    <state width="1878" height="275" key="GridCell.Tab.0.bottom/0.0.1440.900/703.-1080.1920.1080/-1217.-1080.1920.1080@703.-1080.1920.1080" timestamp="1581716157557" />
+    <state width="1398" height="220" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1581949012236" />
     <state width="1038" height="254" key="GridCell.Tab.0.bottom/0.23.1440.877/-480.-1057.1920.1057/1440.-1080.1080.1920@1440.-1080.1080.1920" timestamp="1581384123419" />
     <state width="1038" height="245" key="GridCell.Tab.0.bottom/0.23.1440.877/1440.-1020.1080.1920@1440.-1020.1080.1920" timestamp="1581380490688" />
     <state width="1581" height="213" key="GridCell.Tab.0.bottom/0.23.1440.877/703.-1057.1920.1057/-1217.-1057.1920.1057@-1217.-1057.1920.1057" timestamp="1581541078273" />
-    <state width="1398" height="151" key="GridCell.Tab.0.bottom/0.23.1440.877/703.-1057.1920.1057/-1217.-1057.1920.1057@703.-1057.1920.1057" timestamp="1581448903643" />
+    <state width="1398" height="220" key="GridCell.Tab.0.bottom/0.23.1440.877/703.-1057.1920.1057/-1217.-1057.1920.1057@703.-1057.1920.1057" timestamp="1581954510477" />
     <state width="1878" height="213" key="GridCell.Tab.0.bottom/0.23.1440.877/703.-1080.1920.1080/-1217.-1057.1920.1057@703.-1080.1920.1080" timestamp="1581547112847" />
-    <state width="1295" height="165" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1581528835918" />
-    <state width="1878" height="231" key="GridCell.Tab.0.center" timestamp="1581632172039">
-      <screen x="703" y="-1080" width="1920" height="1080" />
+    <state width="1186" height="231" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1581702484673" />
+    <state width="1398" height="220" key="GridCell.Tab.0.center" timestamp="1581954510476">
+      <screen x="703" y="-1057" width="1920" height="1057" />
     </state>
     <state width="1038" height="209" key="GridCell.Tab.0.center/0.0.1440.900/-480.-1080.1920.1080/1440.-1080.1080.1920@1440.-1080.1080.1920" timestamp="1581571311386" />
-    <state width="1878" height="231" key="GridCell.Tab.0.center/0.0.1440.900/703.-1080.1920.1080/-1217.-1080.1920.1080@703.-1080.1920.1080" timestamp="1581632172039" />
-    <state width="1398" height="209" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1581551666704" />
+    <state width="1878" height="275" key="GridCell.Tab.0.center/0.0.1440.900/703.-1080.1920.1080/-1217.-1080.1920.1080@703.-1080.1920.1080" timestamp="1581716157555" />
+    <state width="1398" height="220" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1581949012235" />
     <state width="1038" height="254" key="GridCell.Tab.0.center/0.23.1440.877/-480.-1057.1920.1057/1440.-1080.1080.1920@1440.-1080.1080.1920" timestamp="1581384123416" />
     <state width="1038" height="245" key="GridCell.Tab.0.center/0.23.1440.877/1440.-1020.1080.1920@1440.-1020.1080.1920" timestamp="1581380490685" />
     <state width="1581" height="213" key="GridCell.Tab.0.center/0.23.1440.877/703.-1057.1920.1057/-1217.-1057.1920.1057@-1217.-1057.1920.1057" timestamp="1581541078272" />
-    <state width="1398" height="151" key="GridCell.Tab.0.center/0.23.1440.877/703.-1057.1920.1057/-1217.-1057.1920.1057@703.-1057.1920.1057" timestamp="1581448903642" />
+    <state width="1398" height="220" key="GridCell.Tab.0.center/0.23.1440.877/703.-1057.1920.1057/-1217.-1057.1920.1057@703.-1057.1920.1057" timestamp="1581954510476" />
     <state width="1878" height="213" key="GridCell.Tab.0.center/0.23.1440.877/703.-1080.1920.1080/-1217.-1057.1920.1057@703.-1080.1920.1080" timestamp="1581547112845" />
-    <state width="1295" height="165" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1581528835917" />
-    <state width="1878" height="231" key="GridCell.Tab.0.left" timestamp="1581632172038">
-      <screen x="703" y="-1080" width="1920" height="1080" />
+    <state width="1186" height="231" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1581702484672" />
+    <state width="1398" height="220" key="GridCell.Tab.0.left" timestamp="1581954510475">
+      <screen x="703" y="-1057" width="1920" height="1057" />
     </state>
     <state width="1038" height="209" key="GridCell.Tab.0.left/0.0.1440.900/-480.-1080.1920.1080/1440.-1080.1080.1920@1440.-1080.1080.1920" timestamp="1581571311385" />
-    <state width="1878" height="231" key="GridCell.Tab.0.left/0.0.1440.900/703.-1080.1920.1080/-1217.-1080.1920.1080@703.-1080.1920.1080" timestamp="1581632172038" />
-    <state width="1398" height="209" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1581551666703" />
+    <state width="1878" height="275" key="GridCell.Tab.0.left/0.0.1440.900/703.-1080.1920.1080/-1217.-1080.1920.1080@703.-1080.1920.1080" timestamp="1581716157553" />
+    <state width="1398" height="220" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1581949012235" />
     <state width="1038" height="254" key="GridCell.Tab.0.left/0.23.1440.877/-480.-1057.1920.1057/1440.-1080.1080.1920@1440.-1080.1080.1920" timestamp="1581384123415" />
     <state width="1038" height="245" key="GridCell.Tab.0.left/0.23.1440.877/1440.-1020.1080.1920@1440.-1020.1080.1920" timestamp="1581380490684" />
     <state width="1581" height="213" key="GridCell.Tab.0.left/0.23.1440.877/703.-1057.1920.1057/-1217.-1057.1920.1057@-1217.-1057.1920.1057" timestamp="1581541078271" />
-    <state width="1398" height="151" key="GridCell.Tab.0.left/0.23.1440.877/703.-1057.1920.1057/-1217.-1057.1920.1057@703.-1057.1920.1057" timestamp="1581448903642" />
+    <state width="1398" height="220" key="GridCell.Tab.0.left/0.23.1440.877/703.-1057.1920.1057/-1217.-1057.1920.1057@703.-1057.1920.1057" timestamp="1581954510475" />
     <state width="1878" height="213" key="GridCell.Tab.0.left/0.23.1440.877/703.-1080.1920.1080/-1217.-1057.1920.1057@703.-1080.1920.1080" timestamp="1581547112844" />
-    <state width="1295" height="165" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1581528835917" />
-    <state width="1878" height="231" key="GridCell.Tab.0.right" timestamp="1581632172040">
-      <screen x="703" y="-1080" width="1920" height="1080" />
+    <state width="1186" height="231" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1581702484671" />
+    <state width="1398" height="220" key="GridCell.Tab.0.right" timestamp="1581954510477">
+      <screen x="703" y="-1057" width="1920" height="1057" />
     </state>
     <state width="1038" height="209" key="GridCell.Tab.0.right/0.0.1440.900/-480.-1080.1920.1080/1440.-1080.1080.1920@1440.-1080.1080.1920" timestamp="1581571311387" />
-    <state width="1878" height="231" key="GridCell.Tab.0.right/0.0.1440.900/703.-1080.1920.1080/-1217.-1080.1920.1080@703.-1080.1920.1080" timestamp="1581632172040" />
-    <state width="1398" height="209" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1581551666704" />
+    <state width="1878" height="275" key="GridCell.Tab.0.right/0.0.1440.900/703.-1080.1920.1080/-1217.-1080.1920.1080@703.-1080.1920.1080" timestamp="1581716157556" />
+    <state width="1398" height="220" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1581949012236" />
     <state width="1038" height="254" key="GridCell.Tab.0.right/0.23.1440.877/-480.-1057.1920.1057/1440.-1080.1080.1920@1440.-1080.1080.1920" timestamp="1581384123417" />
     <state width="1038" height="245" key="GridCell.Tab.0.right/0.23.1440.877/1440.-1020.1080.1920@1440.-1020.1080.1920" timestamp="1581380490687" />
     <state width="1581" height="213" key="GridCell.Tab.0.right/0.23.1440.877/703.-1057.1920.1057/-1217.-1057.1920.1057@-1217.-1057.1920.1057" timestamp="1581541078272" />
-    <state width="1398" height="151" key="GridCell.Tab.0.right/0.23.1440.877/703.-1057.1920.1057/-1217.-1057.1920.1057@703.-1057.1920.1057" timestamp="1581448903643" />
+    <state width="1398" height="220" key="GridCell.Tab.0.right/0.23.1440.877/703.-1057.1920.1057/-1217.-1057.1920.1057@703.-1057.1920.1057" timestamp="1581954510477" />
     <state width="1878" height="213" key="GridCell.Tab.0.right/0.23.1440.877/703.-1080.1920.1080/-1217.-1057.1920.1057@703.-1080.1920.1080" timestamp="1581547112846" />
-    <state width="1295" height="165" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1581528835917" />
+    <state width="1186" height="231" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1581702484672" />
     <state x="95" y="110" key="SettingsEditor" timestamp="1581529345450">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
@@ -231,7 +305,10 @@
     <state x="1645" y="-629" width="670" height="676" key="search.everywhere.popup/0.0.1440.900/-480.-1080.1920.1080/1440.-1080.1080.1920@1440.-1080.1080.1920" timestamp="1581385679254" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/cipher_program$scratch_7.coverage" NAME="scratch_7 Coverage Results" MODIFIED="1581710329651" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
     <SUITE FILE_PATH="coverage/cipher_program$affineCipher.coverage" NAME="affineCipher Coverage Results" MODIFIED="1581442207665" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/cipher_program$cipherProgram.coverage" NAME="cipherProgram Coverage Results" MODIFIED="1581632172028" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/cipher_program$scratch_8.coverage" NAME="scratch_8 Coverage Results" MODIFIED="1581954195273" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
+    <SUITE FILE_PATH="coverage/cipher_program$scratch_6.coverage" NAME="scratch_6 Coverage Results" MODIFIED="1581710235592" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
+    <SUITE FILE_PATH="coverage/cipher_program$cipherProgram.coverage" NAME="cipherProgram Coverage Results" MODIFIED="1581954510468" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

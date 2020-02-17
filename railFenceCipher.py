@@ -11,7 +11,8 @@ class RailFence(Cipher):
         print("The Rail Fence cipher (also know as the Zigzag Cipher) is "
               "a form of transposition cipher. \nThis requires the user to pick"
               " a key 'x' that cannot be greater than the length of the "
-              "message.\n")
+              "message.\nThe key determines the number of 'rails' in the "
+              "\ncipher.")
         RailFence().cipher_choice()
 
 
@@ -48,18 +49,80 @@ class RailFence(Cipher):
     def get_key(self, txt):
 
         invalid_key = True
-
+        repeat = False
         while invalid_key:
             key = int(input("Please enter a key value: \n> "))
 
-            if key > len(txt):
-                print()
-
+            if key > len(txt) or key == 1:
+                print("Your key cannot be larger than the size "
+                      "of your message. Please choose a smaller key.")
+                repeat = True
+            if repeat:
+                repeat = False
+            else:
+                invalid_key = False
+        return key
 
 
 
     def encrypt(self, txt, key):
-        pass
+
+        txt = txt.replace(" ", "")
+        result = ""
+        increment = 1
+        row = 0
+        col = 0
+
+        # Create an array of lists
+        rails = [["" for i in range(len(txt))] for j in range(key)]
+
+        # place characters in array of lists
+        for x in txt:
+            if row + increment < 0 or row + increment >= len(rails):
+                increment = increment * -1
+
+            rails[row][col] = x
+
+            row += increment
+            col += 1
+
+        for rail in rails:
+            result += "".join(rail)
+
+        print(result)
 
     def decrypt(self, txt, key):
-        pass
+
+        result = ""
+        indx = 0
+        increment = 1
+
+        rails = [["" for i in range(len(txt))] for j in range(key)]
+
+        for selectedRow in range(0, len(rails)):
+            row = 0
+
+            for col in range(0, len(rails[row])):
+                if row + increment < 0 or row + increment >= len(rails):
+                    increment = increment * -1
+
+                if row == selectedRow:
+                    rails[row][col] += txt[indx]
+                    indx += 1
+                row += increment
+
+        rails = self.transpose(rails)
+
+        for rail in rails:
+            result += "".join(rail)
+        print(result)
+
+    def transpose(self, m):
+
+        result = [[0 for y in range(len(m))] for x in range(len(m[0]))]
+
+        for i in range(len(m)):
+            for j in range(len(m[0])):
+                result[j][i] = m[i][j]
+
+        return result
